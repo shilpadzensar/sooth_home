@@ -1,0 +1,242 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+:root {
+  /* Colors: */
+  --cape-palliser-a67744: #A67744;
+  --beige-f7f5e6: #F7F5E6;
+  --alabasterr-f7f7f7: #F7F7F7;
+  --athens-gray-eef2f4: #EEF2F4;
+  --silver-rust-c6b9b6: #C6B9B6;
+  --oxford-blue-354e57: #354E57;
+  --como-547665: #547665;
+  --mischka-d7ccdd: #D7CCDD;
+  --rangitoto-2e2e22: #2E2E22;
+  --punch-de3b35: #DE3B35;
+  --blue-0014ff: #0014FF;
+  --white-ffffff: #FFFFFF;
+  /* Font/text values */
+  --unnamed-font-family-proxima-nova: Proxima Nova;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-bold: bold;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-size-14: 14px;
+  --unnamed-font-size-18: 18px;
+  --unnamed-font-size-28: 28px;
+  --unnamed-font-size-32: 32px;
+  --unnamed-font-size-40: 40px;
+  --unnamed-font-size-48: 48px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-line-spacing-17: 17px;
+  --unnamed-line-spacing-22: 22px;
+  --unnamed-line-spacing-24: 24px;
+  --unnamed-line-spacing-34: 34px;
+  --unnamed-line-spacing-38: 38px;
+  --unnamed-line-spacing-48: 48px;
+  --unnamed-line-spacing-58: 58px;
+}
+
+/* Character Styles */
+.headline-—-48pt {
+  font-family: var(--unnamed-font-family-proxima-nova);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-bold);
+  font-size: var(--unnamed-font-size-48);
+  line-height: var(--unnamed-line-spacing-58);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--oxford-blue-354e57);
+}
+
+.headline-2-—-40pt {
+  font-family: var(--unnamed-font-family-proxima-nova);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-bold);
+  font-size: var(--unnamed-font-size-40);
+  line-height: var(--unnamed-line-spacing-48);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--oxford-blue-354e57);
+}
+
+.headline-3-—-32pt {
+  font-family: var(--unnamed-font-family-proxima-nova);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-bold);
+  font-size: var(--unnamed-font-size-32);
+  line-height: var(--unnamed-line-spacing-38);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--oxford-blue-354e57);
+}
+
+.headline-4-—-28pt {
+  font-family: var(--unnamed-font-family-proxima-nova);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-bold);
+  font-size: var(--unnamed-font-size-28);
+  line-height: var(--unnamed-line-spacing-34);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--oxford-blue-354e57);
+}
+
+.headline-5-—-18pt {
+  font-family: var(--unnamed-font-family-proxima-nova);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-bold);
+  font-size: var(--unnamed-font-size-18);
+  line-height: var(--unnamed-line-spacing-22);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--oxford-blue-354e57);
+}
+
+.headline-6-—-14pt {
+  font-family: var(--unnamed-font-family-proxima-nova);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-bold);
+  font-size: var(--unnamed-font-size-14);
+  line-height: var(--unnamed-line-spacing-17);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--rangitoto-2e2e22);
+}
+
+.body-2-—-14pt {
+  font-family: var(--unnamed-font-family-proxima-nova);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-14);
+  line-height: var(--unnamed-line-spacing-24);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--oxford-blue-354e57);
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url(fonts/Metropolis-Black.eot);
+}
+
+.product-teaser-wrapper {
+  background-color: #EEF3F4;
+}
+
+.product-teaser-wrapper .top-links {
+  display: none;
+}
+
+.product-teaser-wrapper .product-grid {
+  padding: 34px 0 60px;
+}
+
+.product-teaser-wrapper .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.product-teaser-wrapper .cards .card {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 calc(50% - 0.75em);
+          flex: 0 1 calc(50% - 0.75em);
+  padding-bottom: 29px;
+}
+
+.product-teaser-wrapper .cards .card img {
+  height: 346px;
+  background-color: #FFFFFF;
+}
+
+.product-teaser-wrapper .cards .card h5 {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-proxima-nova);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--rangitoto-2e2e22);
+  padding-bottom: 3px;
+  padding-top: 14px;
+}
+
+.product-teaser-wrapper .cards .card .description {
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 12px/16px var(--unnamed-font-family-proxima-nova);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--rangitoto-2e2e22);
+  padding-bottom: 9px;
+}
+
+.product-teaser-wrapper .cards .card .price {
+  font: var(--unnamed-font-style-normal) normal medium 12px/15px var(--unnamed-font-family-proxima-nova);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--rangitoto-2e2e22);
+  padding-bottom: 11px;
+}
+
+.product-teaser-wrapper .cards .card button {
+  font: var(--unnamed-font-style-normal) normal medium 12px/15px var(--unnamed-font-family-proxima-nova);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--rangitoto-2e2e22);
+  border: 1px solid var(--oxford-blue-354e57);
+  width: 100%;
+  padding: 10px 0;
+}
+
+.product-teaser-wrapper .cards .card button em {
+  margin-right: 11px;
+}
+
+.product-teaser-wrapper .cards .card span {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .product-teaser-wrapper .top-links {
+    padding-top: 82px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--rangitoto-2e2e22);
+  }
+  .product-teaser-wrapper .product-grid {
+    padding: 29px 0 111px;
+  }
+  .product-teaser-wrapper .product-grid section:not(:last-child) {
+    margin-bottom: 93px;
+  }
+  .product-teaser-wrapper .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-bottom: 0;
+  }
+  .product-teaser-wrapper .cards .card {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 calc(25% - 1.75em);
+            flex: 0 1 calc(25% - 1.75em);
+    position: relative;
+  }
+  .product-teaser-wrapper .cards .card img {
+    height: 229px;
+  }
+  .product-teaser-wrapper .cards .card span {
+    font: var(--unnamed-font-style-normal) normal 600 12px/14px var(--unnamed-font-family-proxima-nova);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--oxford-blue-354e57);
+    background: var(--alabasterr-f7f7f7) 0% 0% no-repeat padding-box;
+    position: absolute;
+    top: 12px;
+    left: 15px;
+    padding: 9px 12px;
+    display: block;
+  }
+  .product-teaser-wrapper .cards .card .text-color {
+    color: #A67744;
+  }
+}
+/*# sourceMappingURL=product-teaser.css.map */

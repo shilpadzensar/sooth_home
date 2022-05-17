@@ -1,0 +1,95 @@
+@import '../../base/desktop';
+@import '../../base/variable';
+@import '../../base/mixins';
+
+.teaser-wrapper {
+
+    .teaser-details {
+        background: var(--como-547665) 0% 0% no-repeat padding-box;
+        padding: 128px 21px 93px 21px;
+
+        h2 {
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-40)/55px var(--unnamed-font-family-proxima-nova);
+            letter-spacing: var(--unnamed-character-spacing-0);
+            color: var(--white-ffffff);
+            padding-bottom: 17px;
+        }
+
+        p {
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) (16px)/var(--unnamed-line-spacing-24) var(--unnamed-font-family-proxima-nova);
+            letter-spacing: var(--unnamed-character-spacing-0);
+            color: var(--athens-gray-eef2f4);
+            padding-bottom: 31px;
+        }
+
+        button {
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-proxima-nova);
+            letter-spacing: var(--unnamed-character-spacing-0);
+            color: var(--beige-f7f5e6);
+            background: var(--como-547665) 0% 0% no-repeat padding-box;
+            padding: 13px 0;
+            width: 176px;
+            border: 1px solid var(--white-ffffff);
+        }
+
+    }
+
+    .teaser-image {
+        img {
+            width: 100%;
+            max-height: 731px;
+            object-fit: cover;
+            object-position: 100% 0;
+        }
+    }
+    
+}
+
+
+.left-image {
+    .teaser-details {
+        background: var(--silver-rust-c6b9b6) 0% 0% no-repeat padding-box;
+        p{
+            color: var(--rangitoto-2e2e22);
+        }
+        button {
+            background: var(--silver-rust-c6b9b6) 0% 0% no-repeat padding-box;
+            color: var(--rangitoto-2e2e22);
+            border: 1px solid #956A53;
+        }
+    }
+
+    .teaser-image {
+        img {
+            width: 100%;
+            max-height: auto;
+        }
+    }
+}
+
+
+@include desktop {
+
+    .teaser-wrapper {
+        background: var(--como-547665) 0% 0% no-repeat padding-box;
+
+        .teaser-details {
+            padding-left: 136px;
+            height: 631px;
+
+            h2 {
+                padding-bottom: 23px;
+            }
+
+            p {
+                padding-bottom: 55px;
+            }
+
+        }
+    }
+
+    .left-image {
+        background: var(--silver-rust-c6b9b6) 0% 0% no-repeat padding-box;
+    }
+
+}

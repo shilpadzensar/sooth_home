@@ -1,0 +1,158 @@
+@import '../../base/desktop';
+@import '../../base/variable';
+@import '../../base/mixins';
+
+
+
+.hero-banner-wrapper {
+    .hb-heading {
+        h1 {
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-48)/var(--unnamed-line-spacing-58) var(--unnamed-font-family-proxima-nova);
+            letter-spacing: var(--unnamed-character-spacing-0);
+            color: var(--oxford-blue-354e57);
+        }
+
+        p {
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) (16px)/var(--unnamed-line-spacing-24) var(--unnamed-font-family-proxima-nova);
+            letter-spacing: var(--unnamed-character-spacing-0);
+            color: var(--oxford-blue-354e57);
+            margin-bottom: 18px;
+        }
+
+        button {
+            width: 173px;
+            border: 1px solid var(--oxford-blue-354e57);
+            font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-17) var(--unnamed-font-family-proxima-nova);
+            letter-spacing: var(--unnamed-character-spacing-0);
+            color: var(--rangitoto-2e2e22);
+            background-color: $color_bg2;
+            padding: 10px 0;;
+        }
+
+        span {
+            font: var(--unnamed-font-style-normal) normal 600 12px/14px var(--unnamed-font-family-proxima-nova);
+            letter-spacing: var(--unnamed-character-spacing-0);
+            color: var(--oxford-blue-354e57);
+            background-color: $color_alabesters;
+        }
+    }
+}
+
+.hero-banner-wrapper {
+    @media (min-width: 768px) {
+        background-image: url('../assets/images/img-hero-banner.png');
+        background-color: $color_bg2;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: 80% 100%;
+    }
+
+    @media (min-width: 769px) and (max-width: 1200px) {
+        background-position-y: 50%;
+        background-position-x: 56%;
+    }
+
+    @media (min-width: 1200px) {
+        height: 550px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hb-container {
+        padding: 0 !important;
+
+        .hb-heading {
+            position: relative !important;
+            top: 0 !important;
+            padding: 28px;
+            background-color: $color_bg3;
+
+            span {
+                margin-bottom: 16px;
+                padding: 5px;
+            }
+
+            div {
+                margin-bottom: 16px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+
+        .hb-img-xs {
+            min-height: 455px;
+            position: relative;
+            background-image: url('../assets/images/img-hero-banner.png');
+            background-color: $color_bg3;
+            background-position-x: 76%;
+            background-repeat: no-repeat;
+        }
+
+        .visible-lg {
+            display: none !important;
+        }
+
+        .visible-xs {
+            display: block !important;
+        }
+
+        .text-align-center {
+            text-align: center;
+        }
+    }
+}
+
+@media (min-width:768px) and (max-width: 1200px) {
+    .hide-lg {
+        display: none !important;
+    }
+
+    .visible-sm {
+        display: block !important;
+    }
+
+    .hb-heading {
+        top: 26px !important;
+
+        div {
+            margin-bottom: 16px;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .hb-container {
+        position: relative;
+        height: 100%;
+        padding: 0 116px;
+
+        .visible-lg {
+            display: block;
+        }
+
+        .visible-xs,
+        .visible-sm {
+            display: none;
+        }
+
+        .hb-heading {
+            position: absolute;
+            top: 124px;
+
+            span {
+                margin-bottom: 16px;
+                padding: 5px;
+            }
+
+            h1 {
+                margin-top: 16px;
+            }
+
+            div {
+                margin-bottom: 16px;
+            }
+        }        
+    }
+}

@@ -1,0 +1,24 @@
+@import '../../base/desktop';
+@import '../../base/variable';
+@import '../../base/mixins';
+
+.secondary-banner-wrapper {
+    background-color: #EEF3F4;
+    border: 1px solid var(--como-547665);
+
+    h2 {
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-28)/var(--unnamed-line-spacing-34) var(--unnamed-font-family-proxima-nova);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--oxford-blue-354e57);
+        text-align: center;
+        padding: 43px 0 6px;
+    }
+
+    p {
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 16px/20px var(--unnamed-font-family-proxima-nova);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--oxford-blue-354e57);
+        text-align: center;
+        padding-bottom: 39px;
+    }
+}

@@ -1,0 +1,36 @@
+@import 'base/_desktop';
+@import 'base/_variable';
+@import 'base/_breakpoints';
+@import 'base/_mixins';
+
+@import url('http://fonts.cdnfonts.com/css/proxima-nova-2');
+
+@import 'framework/_aem-grid-12';
+
+@import 'components/offer-banner/offer-banner.scss';
+@import 'components/hero-banner/hero-banner.scss';
+@import 'components/header/header.scss';
+@import 'components/footer/footer.scss';
+@import 'components/secondary-banner/secondary-banner.scss';
+@import 'components/product-teaser/product-teaser.scss';
+@import 'components/teaser/teaser.scss';
+@import 'components/image-tiles/image-tiles.scss';
+@import 'components/feature-banner/feature-banner.scss';
+@import 'components/news-letter/news-letter.scss';
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.container {
+    padding: 0 21px;
+}
+
+
+@include desktop {
+    .container {
+        padding: 0 136px;
+    }
+}
