@@ -11,10 +11,9 @@
     p {
         @include toRem(font-size, 16);
         text-align: center;
-        font-family: $font-family_1;
-        font-weight: normal;
-        color: $color_beige;
-        letter-spacing: 0;
+        font: var(--unnamed-font-style-medium) normal medium 16px/20px var(--unnamed-font-family-proxima-nova);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--beige-f7f5e6);
         opacity: 1;
     }
 }

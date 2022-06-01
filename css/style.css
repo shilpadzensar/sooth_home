@@ -1,16 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("http://fonts.cdnfonts.com/css/proxima-nova-2");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 :root {
   /* Colors: */
   --cape-palliser-a67744: #A67744;
@@ -115,11 +104,6 @@
   line-height: var(--unnamed-line-spacing-24);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--oxford-blue-354e57);
-}
-
-@font-face {
-  font-family: "Proxima Nova";
-  src: url(fonts/Metropolis-Black.eot);
 }
 
 /*
@@ -5230,11 +5214,6 @@
   }
 }
 
-@font-face {
-  font-family: "Proxima Nova";
-  src: url(fonts/Metropolis-Black.eot);
-}
-
 .offer-banner-wrapper {
   background-color: #A67744;
   height: 3.125rem;
@@ -5246,10 +5225,9 @@
 .offer-banner-wrapper p {
   font-size: 1rem;
   text-align: center;
-  font-family: Proxima Nova, Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  color: #F7F5E6;
-  letter-spacing: 0;
+  font: var(--unnamed-font-style-medium) normal medium 16px/20px var(--unnamed-font-family-proxima-nova);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--beige-f7f5e6);
   opacity: 1;
 }
 
@@ -5367,11 +5345,6 @@
   line-height: var(--unnamed-line-spacing-24);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--oxford-blue-354e57);
-}
-
-@font-face {
-  font-family: "Proxima Nova";
-  src: url(fonts/Metropolis-Black.eot);
 }
 
 .hero-banner-wrapper .hb-heading h1 {
@@ -5508,11 +5481,6 @@
   .hb-container .hb-heading div {
     margin-bottom: 16px;
   }
-}
-
-@font-face {
-  font-family: "Proxima Nova";
-  src: url(fonts/Metropolis-Black.eot);
 }
 
 .bg-color {
@@ -5795,11 +5763,6 @@
   line-height: var(--unnamed-line-spacing-24);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--oxford-blue-354e57);
-}
-
-@font-face {
-  font-family: "Proxima Nova";
-  src: url(fonts/Metropolis-Black.eot);
 }
 
 .footer-wrapper {
@@ -6109,11 +6072,6 @@
   color: var(--oxford-blue-354e57);
 }
 
-@font-face {
-  font-family: "Proxima Nova";
-  src: url(fonts/Metropolis-Black.eot);
-}
-
 .secondary-banner-wrapper {
   background-color: #EEF3F4;
   border: 1px solid var(--como-547665);
@@ -6239,11 +6197,6 @@
   line-height: var(--unnamed-line-spacing-24);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--oxford-blue-354e57);
-}
-
-@font-face {
-  font-family: "Proxima Nova";
-  src: url(fonts/Metropolis-Black.eot);
 }
 
 .product-teaser-wrapper {
@@ -6481,11 +6434,6 @@
   color: var(--oxford-blue-354e57);
 }
 
-@font-face {
-  font-family: "Proxima Nova";
-  src: url(fonts/Metropolis-Black.eot);
-}
-
 .teaser-wrapper .teaser-details {
   background: var(--como-547665) 0% 0% no-repeat padding-box;
   padding: 128px 21px 93px 21px;
@@ -6668,11 +6616,6 @@
   color: var(--oxford-blue-354e57);
 }
 
-@font-face {
-  font-family: "Proxima Nova";
-  src: url(fonts/Metropolis-Black.eot);
-}
-
 .tiles-wrapper {
   text-align: center;
   background-color: #F7F7F7;
@@ -6803,11 +6746,6 @@
   line-height: var(--unnamed-line-spacing-24);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--oxford-blue-354e57);
-}
-
-@font-face {
-  font-family: "Proxima Nova";
-  src: url(fonts/Metropolis-Black.eot);
 }
 
 .feature-banner-wrapper {
@@ -6974,11 +6912,6 @@
   line-height: var(--unnamed-line-spacing-24);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--oxford-blue-354e57);
-}
-
-@font-face {
-  font-family: "Proxima Nova";
-  src: url(fonts/Metropolis-Black.eot);
 }
 
 .news-letter-wrapper .news-letter {

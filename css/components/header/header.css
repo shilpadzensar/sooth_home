@@ -1,9 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
-@font-face {
-  font-family: "Proxima Nova";
-  src: url(fonts/Metropolis-Black.eot);
-}
-
 .bg-color {
   background-color: #E2E6E9;
 }

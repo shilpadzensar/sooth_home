@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 :root {
   /* Colors: */
   --cape-palliser-a67744: #A67744;
@@ -104,11 +103,6 @@
   line-height: var(--unnamed-line-spacing-24);
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--oxford-blue-354e57);
-}
-
-@font-face {
-  font-family: "Proxima Nova";
-  src: url(fonts/Metropolis-Black.eot);
 }
 
 .teaser-wrapper .teaser-details {
