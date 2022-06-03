@@ -1,6 +1,8 @@
 # Sooth Home
 Html5, Scss and ES6 technologies are used to develop Sooth website. 
 
+# Publish url
+https://sooth-home.herokuapp.com
 
 # Getting Started
 Simply click on index.html file
